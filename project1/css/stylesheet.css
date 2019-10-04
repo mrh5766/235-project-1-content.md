@@ -1,0 +1,117 @@
+body
+{
+    background-color: #DAE3E5;
+    color: #04080F;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#title
+{
+    margin-left: -10000rem;
+}
+#logo
+{
+    height: 30vw; /*The images get bigger as the screen gets wider, while keeping the same height as each other*/
+    width: auto;
+    max-width: 400px;
+    max-height: 350px;
+    border-style: solid;
+    border-width: 0.05rem;
+    border-color: #04080F;
+    margin-top: -3rem;
+}
+ul
+{ 
+    margin-left: -3rem;
+    list-style-type: none; 
+    display: flex;
+    width: 25vw;
+}
+#Currentpage
+{
+    margin-top:-1.05rem;
+    background-color: #507DBC;
+}
+#padding /*Makes it so that the navbar displays all the way to the right.*/
+{
+    background-color: #A1C6EA;
+    margin-top: -1rem;
+    padding-top: 1rem;
+    padding-bottom: 2.05rem;
+    padding-right: 80vw;
+}
+a
+{
+    background-color: #A1C6EA;
+    color: #04080F;
+    text-decoration: none;
+    padding: 1rem;
+    font-size: 1rem;
+}
+a.source
+{
+    background-color: #DAE3E5;
+    text-decoration: underline;
+    padding: 0rem;
+}
+a.source:focus
+{
+    color: #507DBC;
+}
+a.source:hover
+{
+    color: #507DBC;
+}
+a.source:active
+{
+    color: #507DBC;
+}
+a.differentpage:link
+{
+    background-color: #A1C6EA;
+    color: #04080F;
+    text-decoration: none;
+}
+a.differentpage:visited
+{
+    background-color: #A1C6EA;
+    color: #04080F;
+    text-decoration: none;
+}
+a.differentpage:focus
+{
+    background-color: #507DBC;
+    color: #DAE3E5;
+    text-decoration: none;
+}
+a.differentpage:hover
+{
+    background-color: #507DBC;
+    color: #DAE3E5;
+    text-decoration: none;
+}
+a.differentpage:active
+{
+    background-color: #507DBC;
+    color: #DAE3E5;
+    text-decoration: none;
+}
+p
+{
+    max-width: 50rem;
+}
+#imagewrapper
+{
+    display:flex;
+}
+img
+{
+    height: 30vw; /*The images get bigger as the screen gets wider, while keeping the same height as each other*/
+    width: auto;
+    border-style: solid;
+    border-width: 0.05rem;
+    border-color: #04080F;
+    margin: 1rem;
+}
+* {
+    box-sizing: border-box;
+}
